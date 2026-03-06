@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Family Chat</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #6C63FF 0%, #5A52D5 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .last-updated {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #666;
+        }
+
+        h2 {
+            color: #6C63FF;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-bottom: 3px solid #6C63FF;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #5A52D5;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .highlight-box {
+            background: #f0f0ff;
+            border-left: 4px solid #6C63FF;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .icon {
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #6C63FF 0%, #5A52D5 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .contact-box h3 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .contact-box a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .footer {
+            background: #1A1A2E;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔒 Privacy Policy</h1>
+            <p>Family Chat - AI-Powered Family Conversations</p>
+        </div>
+
+        <div class="content">
+            <div class="last-updated">
+                <strong>Last Updated:</strong> March 6, 2026
+            </div>
+
+            <h2>📱 Introduction</h2>
+            <p>
+                Family Chat ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application. By using Family Chat, you agree to the collection and use of information in accordance with this policy.
+            </p>
+
+            <h2>📊 Information We Collect</h2>
+
+            <h3>1. Personal Information</h3>
+            <ul>
+                <li><span class="icon">👤</span> <strong>Contact Names:</strong> Names and relationships you add to the app (e.g., माँ, पिता, भाई)</li>
+                <li><span class="icon">💬</span> <strong>Chat Messages:</strong> Conversations between you and AI characters</li>
+                <li><span class="icon">📸</span> <strong>Photos:</strong> Profile pictures you upload (optional)</li>
+                <li><span class="icon">📱</span> <strong>Status Updates:</strong> Text and images you post as status</li>
+            </ul>
+
+            <h3>2. Automatically Collected Information</h3>
+            <ul>
+                <li><span class="icon">📱</span> <strong>Device Information:</strong> Device model, operating system version</li>
+                <li><span class="icon">📈</span> <strong>Usage Data:</strong> App features you use, interaction patterns</li>
+                <li><span class="icon">🐛</span> <strong>Error Logs:</strong> Crash reports and error messages for debugging</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>🔐 Important:</strong> All your chat messages and personal data are stored <strong>locally on your device only</strong>. We do not store your conversations on any external servers.
+            </div>
+
+            <h2>🎯 How We Use Your Information</h2>
+            <p>We use the collected information to:</p>
+            <ul>
+                <li>Provide AI-powered chat responses through Groq API</li>
+                <li>Store your conversations locally on your device</li>
+                <li>Generate personalized status updates</li>
+                <li>Improve app functionality and user experience</li>
+                <li>Fix bugs and technical issues</li>
+                <li>Provide emotional and contextual responses</li>
+            </ul>
+
+            <h2>💾 Data Storage</h2>
+
+            <h3>Local Storage</h3>
+            <ul>
+                <li>All chat messages are stored <strong>locally on your device</strong></li>
+                <li>We use SharedPreferences for data persistence</li>
+                <li>No messages are uploaded to our servers</li>
+                <li>Data remains on your device until you delete it</li>
+            </ul>
+
+            <h3>Third-Party Services</h3>
+            <p>We use the following third-party service:</p>
+            <ul>
+                <li>
+                    <strong>Groq API:</strong> For AI chat responses
+                    <ul>
+                        <li>Website: <a href="https://groq.com" target="_blank">https://groq.com</a></li>
+                        <li>Your messages are sent to Groq for processing AI responses</li>
+                        <li>Groq's privacy policy applies: <a href="https://groq.com/privacy-policy" target="_blank">https://groq.com/privacy-policy</a></li>
+                        <li>We use Llama 3.3 70B model for generating responses</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>🚫 Data Sharing</h2>
+
+            <h3>We DO NOT:</h3>
+            <ul>
+                <li>❌ Sell your personal information to anyone</li>
+                <li>❌ Share your data with advertisers</li>
+                <li>❌ Store your conversations on external servers</li>
+                <li>❌ Track your location</li>
+                <li>❌ Share data with social media platforms</li>
+                <li>❌ Use your data for marketing purposes</li>
+            </ul>
+
+            <h3>We MAY share data only:</h3>
+            <ul>
+                <li>✅ With Groq API for AI response generation (temporary, not stored)</li>
+                <li>✅ When required by law or legal process</li>
+                <li>✅ To protect our rights and safety</li>
+            </ul>
+
+            <h2>🔑 Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Delete any contact or conversation at any time</li>
+                <li>Clear all app data from device settings</li>
+                <li>Uninstall the app at any time (permanently deletes all data)</li>
+                <li>Request information about data processing</li>
+                <li>Contact us with privacy concerns</li>
+            </ul>
+
+            <h2>👶 Children's Privacy</h2>
+            <p>
+                This app is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.
+            </p>
+
+            <h2>🔐 Data Security</h2>
+            <p>We implement security measures including:</p>
+            <ul>
+                <li>Local device storage with Android encryption</li>
+                <li>Secure API communication using HTTPS</li>
+                <li>No cloud backup of sensitive data</li>
+                <li>Regular security updates</li>
+                <li>Minimal data collection principle</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>⚠️ Note:</strong> While we strive to protect your information, no method of electronic storage is 100% secure. We cannot guarantee absolute security.
+            </div>
+
+            <h2>🌍 International Data Transfers</h2>
+            <p>
+                Your data is processed locally on your device. When using AI features, your messages are temporarily sent to Groq API servers which may be located in different countries. This transfer is necessary for providing AI responses.
+            </p>
+
+            <h2>📝 Changes to Privacy Policy</h2>
+            <p>
+                We may update this Privacy Policy from time to time. We will notify you of any changes by:
+            </p>
+            <ul>
+                <li>Posting the new Privacy Policy in the app</li>
+                <li>Updating the "Last Updated" date</li>
+                <li>Showing an in-app notification (for major changes)</li>
+            </ul>
+            <p>
+                You are advised to review this Privacy Policy periodically for any changes. Changes are effective when posted.
+            </p>
+
+            <h2>🗑️ Data Deletion</h2>
+            <p>To delete your data:</p>
+            <ul>
+                <li><strong>Delete specific chats:</strong> Go to Settings > Manage Contacts > Delete</li>
+                <li><strong>Clear all data:</strong> Uninstall the app from your device</li>
+                <li><strong>Request deletion:</strong> Contact us at the email below</li>
+            </ul>
+
+            <h2>✅ Your Consent</h2>
+            <p>
+                By using Family Chat, you consent to this Privacy Policy and agree to its terms. If you do not agree with this policy, please do not use our app.
+            </p>
+
+            <div class="contact-box">
+                <h3>📧 Contact Us</h3>
+                <p>For privacy concerns, questions, or data deletion requests:</p>
+                <p><a href="mailto:dhruvchaurasiya900@gmail.com">dhruvchaurasiya900@gmail.com</a></p>
+                <p style="margin-top: 15px; font-size: 0.9em;">
+                    <strong>App Name:</strong> Family Chat<br>
+                    <strong>Version:</strong> 1.0.0<br>
+                    <strong>Package:</strong> com.example.family_chat
+                </p>
+            </div>
+
+            <div class="highlight-box" style="margin-top: 30px; background: #fff3cd; border-left-color: #ffc107;">
+                <strong>⚠️ Important Reminder:</strong> This app stores all data locally on your device. Uninstalling the app will permanently delete all your conversations, contacts, and status updates. Make sure to backup any important information before uninstalling.
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 Family Chat. All rights reserved.</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">Made with ❤️ for connecting families through AI</p>
+        </div>
+    </div>
+</body>
+</html>
